@@ -7,7 +7,7 @@ public partial class TaxIdValidationService : ITaxIdValidationService
 {
 	public bool IsValid(string? taxId)
 	{
-		ArgumentNullException.ThrowIfNull(taxId, nameof(taxId));
+		ArgumentNullException.ThrowIfNull(taxId);
 
 		if (!IsLegalFormat(taxId))
 			return false;

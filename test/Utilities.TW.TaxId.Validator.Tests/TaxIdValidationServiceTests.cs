@@ -47,6 +47,9 @@ public class TaxIdValidationServiceTests(ITestOutputHelper testOutputHelper)
 	[InlineData("09876543")]
 	[InlineData("01234578")]
 	[InlineData("99990000")]
+	[InlineData("999900")]
+	[InlineData("abc1231")]
+	[InlineData("99990000123")]
 	public void IllegalTaxId_ShouldFailed(string data)
 	{
 		// Given
