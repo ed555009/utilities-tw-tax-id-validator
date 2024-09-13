@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C62A7C58-9B88-4081-9754-0105AFCCC0C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities.TW.TaxId.Validator", "src\Utilities.TW.TaxId.Validator\Utilities.TW.TaxId.Validator.csproj", "{712016FC-44F6-42F8-9680-9A976A20B9F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D35E1345-A101-4BD1-85F1-949776F76DA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities.TW.TaxId.Validator.Tests", "test\Utilities.TW.TaxId.Validator.Tests\Utilities.TW.TaxId.Validator.Tests.csproj", "{43F764F1-6C5F-4FBB-AF8B-E512B9EC3601}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{712016FC-44F6-42F8-9680-9A976A20B9F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{712016FC-44F6-42F8-9680-9A976A20B9F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{712016FC-44F6-42F8-9680-9A976A20B9F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{712016FC-44F6-42F8-9680-9A976A20B9F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43F764F1-6C5F-4FBB-AF8B-E512B9EC3601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43F764F1-6C5F-4FBB-AF8B-E512B9EC3601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43F764F1-6C5F-4FBB-AF8B-E512B9EC3601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43F764F1-6C5F-4FBB-AF8B-E512B9EC3601}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{712016FC-44F6-42F8-9680-9A976A20B9F0} = {C62A7C58-9B88-4081-9754-0105AFCCC0C4}
+		{43F764F1-6C5F-4FBB-AF8B-E512B9EC3601} = {D35E1345-A101-4BD1-85F1-949776F76DA3}
+	EndGlobalSection
+EndGlobal
